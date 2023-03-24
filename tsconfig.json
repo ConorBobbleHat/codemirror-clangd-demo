@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-      "outDir": "public",
+      "outDir": "docs",
       "noImplicitAny": true,
       "module": "esnext",
       "target": "es5",
