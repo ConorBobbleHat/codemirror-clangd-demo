@@ -18,8 +18,10 @@
   },
   "dependencies": {
     "@codemirror/autocomplete": "^6.4.2",
+    "@codemirror/commands": "^6.2.2",
     "@codemirror/lang-cpp": "^6.0.2",
     "@codemirror/lint": "^6.2.0",
+    "@codemirror/view": "^6.9.3",
     "@open-rpc/client-js": "^1.8.1",
     "codemirror": "^6.0.1",
     "codemirror-languageserver": "^1.11.0"
