@@ -1,0 +1,27 @@
+{
+  "name": "codemirror-clangd-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "serve": "webpack serve --mode=development"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  },
+  "dependencies": {
+    "@codemirror/autocomplete": "^6.4.2",
+    "@codemirror/lang-cpp": "^6.0.2",
+    "@codemirror/lint": "^6.2.0",
+    "@open-rpc/client-js": "^1.8.1",
+    "codemirror": "^6.0.1",
+    "codemirror-languageserver": "^1.11.0"
+  }
+}
