@@ -25,6 +25,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'docs'),
+    publicPath: "https://conorbobblehat.github.io/codemirror-clangd-demo/"
   },
   devServer: {
     static: {
