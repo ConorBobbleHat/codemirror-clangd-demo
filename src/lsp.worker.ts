@@ -77,7 +77,7 @@ let Module: Module = {
         if (path.endsWith(".worker.js"))
             return new URL("./clangd.worker.js", import.meta.url).toString();
     
-        return prefix + path;    
+        return path;    
     },
 
     mainScriptUrlOrBlob: new URL('./clangd.js', import.meta.url).toString(),
